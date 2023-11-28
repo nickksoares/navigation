@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigation/components/main_drawer.dart';
 import 'package:navigation/models/settings.dart';
-import 'package:navigation/models/settings.dart';
 
 class SettingsScreen extends StatefulWidget {
   final Settings settings;
@@ -13,6 +12,7 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
+  // ignore: prefer_typing_uninitialized_variables
   var settings;
 
   @override

@@ -13,8 +13,10 @@ class MealItem extends StatelessWidget {
     )
         .then((result) {
       if (result == null) {
+        //placeholder FavoriteScreen
         print('No result');
       } else {
+        //placeholder FavoriteScreen
         print(result);
       }
     });
