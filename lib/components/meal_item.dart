@@ -6,20 +6,10 @@ class MealItem extends StatelessWidget {
   final Meal meal;
   const MealItem(this.meal, {super.key});
   void _selectMeal(BuildContext context) {
-    Navigator.of(context)
-        .pushNamed(
+    Navigator.of(context).pushNamed(
       AppRoutes.mealDetail,
       arguments: meal,
-    )
-        .then((result) {
-      if (result == null) {
-        //placeholder FavoriteScreen
-        print('No result');
-      } else {
-        //placeholder FavoriteScreen
-        print(result);
-      }
-    });
+    );
   }
 
   @override
